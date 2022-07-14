@@ -81,6 +81,14 @@
     position: relative;
     z-index: 52;
   }
+  &__location {
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    padding-left: 40px;
+    background: url("../img/geo.svg") 0 7px / 24px 32px no-repeat;
+  }
 
   // .header__nav
 
@@ -130,10 +138,22 @@
   }
 
   @media (max-width: 991.98px) {
+    flex-wrap: wrap;
+    &__location {
+      margin-top: 20px;
+    }
   }
   @media (max-width: 767.98px) {
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0;
+    &__location {
+      flex: 1 0 100%;
+      margin-top: 33px;
+      font-size: 16px;
+      line-height: 22px;
+      padding-left: 23px;
+      background: url("../img/geo.svg") 0 2px / 13px 18px no-repeat;
+    }
 
     &__logo {
       width: 48px;

@@ -202,6 +202,14 @@ h6 {
   position: relative;
   z-index: 52;
 }
+.header__location {
+  position: relative;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  padding-left: 40px;
+  background: url("../img/geo.svg") 0 7px/24px 32px no-repeat;
+}
 .header__nav {
   margin: 0 auto;
   padding: 20px 0 20px 40px;
@@ -241,10 +249,26 @@ h6 {
 .header__nav-mobile {
   display: none;
 }
+@media (max-width: 991.98px) {
+  .header {
+    flex-wrap: wrap;
+  }
+  .header__location {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 767.98px) {
   .header {
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0;
+  }
+  .header__location {
+    flex: 1 0 100%;
+    margin-top: 33px;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 23px;
+    background: url("../img/geo.svg") 0 2px/13px 18px no-repeat;
   }
   .header__logo {
     width: 48px;
