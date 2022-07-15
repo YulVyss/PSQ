@@ -665,7 +665,8 @@
     }
   }
   @media (max-width: 767.98px) {
-    padding-top: 40px;
+    padding-top: 500px;
+
     &__title {
       margin-bottom: 15px;
     }
@@ -677,10 +678,10 @@
       margin-bottom: 80px;
     }
     &__text {
-      padding: 45px 0 100px;
+      padding: 45px 0 0;
     }
     &__img {
-      top: 2.5%;
+      top: -50px;
       right: 0;
       img {
         max-width: 107%;
@@ -688,6 +689,7 @@
     }
   }
   @media (max-width: 479.98px) {
+    padding-top: 300px;
     &__supertitle {
       font-size: 44px;
       line-height: 54px;

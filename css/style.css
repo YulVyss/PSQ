@@ -677,7 +677,7 @@ h6 {
 }
 @media (max-width: 767.98px) {
   .cashback {
-    padding-top: 40px;
+    padding-top: 500px;
   }
   .cashback__title {
     margin-bottom: 15px;
@@ -690,10 +690,10 @@ h6 {
     margin-bottom: 80px;
   }
   .cashback__text {
-    padding: 45px 0 100px;
+    padding: 45px 0 0;
   }
   .cashback__img {
-    top: 2.5%;
+    top: -50px;
     right: 0;
   }
   .cashback__img img {
@@ -701,6 +701,9 @@ h6 {
   }
 }
 @media (max-width: 479.98px) {
+  .cashback {
+    padding-top: 300px;
+  }
   .cashback__supertitle {
     font-size: 44px;
     line-height: 54px;
